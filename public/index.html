@@ -1,0 +1,86 @@
+<!Doctype html>
+<head lang="en" >
+	<meta charset="UTF-8">
+	<title>Interactive Piano</title>
+	<link rel="stylesheet" href="style.css">
+
+	
+</head>
+
+<div id='app'>
+	<button v-if= "consent == false" id="buttonSound" v-on:click="consentButton">JOIN</button>
+	<div v-if="consent == true">
+	<div id="keyboard">
+	<h1>PIANO JAM</h1>
+	<div id="keyboard-black"></div>
+	
+	<div id="keyboard-keys">
+	<button id="C1" v-on:click="sendKey('C1')"></button>
+	
+	<button id="D1" v-on:click="sendKey('D1')"></button>
+	<button id="CSharp" v-on:click="sendKey('C#')"></button>
+	
+	<button id="E1" v-on:click="sendKey('E1')"></button>
+	<button id="DSharp" v-on:click="sendKey('D#')"></button>
+	
+	<button id="F1" v-on:click="sendKey('F1')"></button>
+
+	
+	<button id="G1" v-on:click="sendKey('G1')"></button>
+	<button id="FSharp" v-on:click="sendKey('F#')"></button>
+	
+	<button id="A1" v-on:click="sendKey('A1')"></button>
+
+	<button id="GSharp" v-on:click="sendKey('G#')"></button>
+	<button id="B1" v-on:click="sendKey('B1')"></button>
+	<button id="ASharp" v-on:click="sendKey('A#')"></button>
+	
+	<button id="C2" v-on:click="sendKey('C2')"></button>  <!--Middle C-->
+
+	
+	<button id="D2" v-on:click="sendKey('D2')"></button>
+	<button id="C2Sharp" v-on:click="sendKey('D1#')"></button>
+
+	<button id="E2" v-on:click="sendKey('E2')"></button>
+	<button id="D2Sharp" v-on:click="sendKey('C1#')"></button>
+	<button id="F2" v-on:click="sendKey('F2')"></button>
+	
+	
+	<button id="G2" v-on:click="sendKey('G2')"></button>
+	<button id="F2Sharp" v-on:click="sendKey('F1#')"></button>
+	
+	<button id="A2" v-on:click="sendKey('A2')"></button>
+	<button id="G2Sharp" v-on:click="sendKey('G1#')"></button>
+	
+	
+	<button id="B2" v-on:click="sendKey('B2')"></button>
+	<button id="A2Sharp" v-on:click="sendKey('A1#')"></button>
+	</div>
+
+	<div id="keyboard-text">
+		<p id="C1Text">C</p> 
+		<p id="D1Text">D</p>
+		<p id="E1Text">E</p>
+		<p id="F1Text">F</p>
+		<p id="G1Text">G</p>
+		<p id="A1Text">A</p>
+		<p id="B1Text">B</p>
+		<p id="MiddleCText">C</p>
+		<p id="D2Text">D</p>
+		<p id="E2Text">E</p>
+		<p id="F2Text">F</p>
+		<p id="G2Text">G</p>
+		<p id="A2Text">A</p>
+		<p id="B2Text">B</p>
+		</div>
+	
+	</div>
+	</div>
+	</div>
+	
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="vuejavascript.js"></script>
+</html>

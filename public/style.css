@@ -1,0 +1,390 @@
+body {
+	animation-name: BackgoundChanger;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+
+	
+}
+
+p {
+	display: inline-block;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: grey;
+	
+}
+
+button {
+	height: 200px;
+	width: 50px;
+	outline: none;
+	
+	
+
+}
+h1 {
+	color: black;
+	position: fixed;
+	top: 200px;
+	right: 50%;
+	left: 25%;
+	font-family: monospace;
+	letter-spacing: 50px;
+}
+#buttonSound {
+	height: 20px;
+	width: 50px;
+
+	position: fixed;
+	background-color: transparent;
+	border: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: white;
+	border-radius: 5px;
+	left: 50%;
+	right: 50%;
+
+	top: 50%;
+	bottom: 50%;
+}
+
+#keyboard-black {
+	width: 735px;
+	height: 230px;
+	background-color: black;
+
+	position: fixed;
+	top: 400px ;
+	left: 25%;
+	right: 25%;
+
+}
+#C1 {
+	position: fixed;
+	left: 400px;
+	top: 425px;
+}
+
+#C1Text {
+	position: fixed;
+	left: 415px;
+	top: 575px;
+}
+
+
+#CSharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 440px;
+	top: 424px
+	
+
+}
+
+#D1 {
+	position: fixed;
+	left: 448px;
+	top: 425px;
+}
+
+#D1Text {
+	position: fixed;
+	left: 463px;
+	top: 575px;
+}
+
+#DSharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 485px;
+	top: 424px
+}
+
+
+#E1 {
+	position: fixed;
+	left: 496px;
+	top: 425px;
+}
+
+#E1Text {
+	position: fixed;
+	left: 511px;
+	top: 575px;
+}
+
+#F1 {
+	position: fixed;
+	left: 545px;
+	top: 425px;
+}
+
+#F1Text {
+	position: fixed;
+	left: 560px;
+	top: 575px;
+}
+
+#FSharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 584px;
+	top: 424px
+}
+
+
+#G1 {
+	position: fixed;
+	left: 594px;
+	top: 425px;
+}
+
+#G1Text {
+	position: fixed;
+	left: 609px;
+	top: 575px;
+}
+
+#A1 {
+	position: fixed;
+	left: 643px;
+	top: 425px;
+}
+
+#A1Text {
+	position: fixed;
+	left: 658px;
+	top: 575px;
+}
+
+#GSharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 630px;
+	top: 424px
+}
+
+
+
+#B1 {
+	position: fixed;
+	left: 692px;
+	top: 425px;
+}
+
+#B1Text {
+	position: fixed;
+	left: 707px;
+	top: 575px;
+}
+
+#ASharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 680px;
+	top: 424px
+}
+
+#C2 {
+	/*background-color: black;  Some special styling */
+	position: fixed;
+	left: 741px;
+	top: 425px;
+	
+}
+
+#MiddleCText {
+	position: fixed;
+	left: 756px;
+	top: 575px;
+
+	
+}
+
+
+
+#D2 {
+	position: fixed;
+	left: 790px;
+	top: 425px;
+}
+
+#D2Text {
+	position: fixed;
+	left: 805px;
+	top: 575px;
+}
+
+#C2Sharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 779px;
+	top: 424px
+}
+
+#E2 {
+	position: fixed;
+	left: 839px;
+	top: 425px;
+}
+
+#E2Text {
+	position: fixed;
+	left: 854px;
+	top: 575px;
+}
+
+#D2Sharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 830px;
+	top: 424px
+}
+
+#F2 {
+	position: fixed;
+	left: 886px;
+	top: 425px;
+}
+
+#F2Text {
+	position: fixed;
+	left: 900px;
+	top: 575px;
+}
+#F2Sharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 925px;
+	top: 424px
+}
+
+#G2 {
+	position: fixed;
+	left: 935px;
+	top: 425px;
+}
+
+#G2Text {
+	position: fixed;
+	left: 950px;
+	top: 575px;
+}
+#G2Sharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 970px;
+	top: 424px
+}
+
+
+#A2 {
+	position: fixed;
+	left: 984px;
+	top: 425px;
+}
+
+#A2Text {
+	position: fixed;
+	left: 999px;
+	top: 575px;
+}
+
+#B2 {
+	position: fixed;
+	left: 1033px;
+	top: 425px;
+}
+
+#B2Text {
+	position: fixed;
+	left: 1048px;
+	top: 575px;
+}
+#A2Sharp {
+	position: fixed;
+
+	width: 25px;
+	height: 90px;
+
+	background-color: black;
+	border: none;
+	left: 1020px;
+	top: 424px
+}
+
+#keyboard {
+	margin-right: 100px;
+}
+
+
+
+
+
+
+@keyframes BackgoundChanger {
+	0% {
+		background-color: #BDD9BF;
+	}
+
+	25% {
+		background-color: #2E4052;
+	}
+
+	50% {
+		background-color: #FFC857;
+	}
+
+	75% {
+		background-color: #FFFFFF;
+	}
+
+
+	100% {
+		background-color: #412234;
+	}
+}
